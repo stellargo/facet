@@ -2,7 +2,7 @@
 
 ### ECCV 2024
 
-### [Project Page](https://facet.cs.columbia.edu/)  | [Paper](TODO)
+### [Project Page](https://facet.cs.columbia.edu/)  | [Paper](https://arxiv.org/pdf/2406.00955)
 
 [How Video Meetings Change Your Expression](https://facet.cs.columbia.edu/)  
  [Sumit Sarin](https://stellargo.github.io/), [Utkarsh Mall](https://www.cs.columbia.edu/~utkarshm/), [Purva Tendulkar](https://purvaten.github.io/), [Carl Vondrick](https://www.cs.columbia.edu/~vondrick/) <br>
@@ -31,7 +31,7 @@ The data contains the following column fields:
 - `fps`: frame-rate.
 - `vid_url`: URL for the video.
 - `view`: (only for ZoomIn dataset) whether video is F2F (`off`) or VC (`on`).
-- `president`: (only     for Presidents dataset) whether video is Trump (`trump`) or Obama (`obama`). 
+- `president`: (only for Presidents dataset) whether video is Trump (`trump`) or Obama (`obama`). 
 - `participants`: number of participants in the conversation.
 - `file_name`: the name of the video file to be be used for saving.
 
@@ -103,12 +103,13 @@ This research is based on work partially supported by the DARPA CCU program unde
 
 ##  Citation
 ```
-@misc{sarin2023facet,
-      title={TODO}, 
+@misc{sarin2024videomeetingschangeexpression,
+      title={How Video Meetings Change Your Expression}, 
       author={Sumit Sarin and Utkarsh Mall and Purva Tendulkar and Carl Vondrick},
       year={2024},
-      eprint={2303.11328},
+      eprint={2406.00955},
       archivePrefix={arXiv},
-      primaryClass={cs.CV}
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2406.00955}, 
 }
 ```
